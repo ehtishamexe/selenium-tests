@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 import xmlrunner
 
 # YOUR NEW IP IS SET HERE
-BASE_URL = "http://13.53.243.123"
+BASE_URL = "http://13.53.243.123:8081"
 
 def get_driver():
     opts = Options()
